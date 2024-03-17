@@ -92,7 +92,6 @@ with ui.navset_card_tab(id="tab"):
                 x="flipper_length_mm",
                 y="bill_length_mm",
                 color="species",
-                facet_row="species",
                 facet_col="sex",
                 title="Flipper and Bill Lengeth Correlation Scatterplot",
                 labels={
